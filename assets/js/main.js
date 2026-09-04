@@ -1,7 +1,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const toggle = document.getElementById('navToggle');
-const navEl = document.getElementById('siteNav');
+const navEl = document.getElementById('mobileMenu');
 if (toggle && navEl) {
   toggle.addEventListener('click', function () {
     const open = navEl.classList.toggle('open');
@@ -9,7 +9,7 @@ if (toggle && navEl) {
   });
 }
 
-document.querySelectorAll('.site-nav a[data-page]').forEach(function (a) {
+document.querySelectorAll('.site-nav a[data-page], .mobile-menu a[data-page]').forEach(function (a) {
   const file = a.getAttribute('href');
   const path = window.location.pathname;
   if (path.endsWith(file) || (file === 'index.html' && (path === '/' || path.endsWith('/pack-269/') || path.endsWith('/')))) {

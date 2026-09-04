@@ -6,20 +6,33 @@
 <title>Join Pack 269 | Cub Scout Pack 269</title>
 <meta name="description" content="How to enroll a new scout or renew for a returning scout in Pack 269.">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="index.html">
-      <img src="assets/img/logo.svg" alt="Pack 269 logo" class="brand-logo">
-      <span class="brand-text">Cub Scout Pack 269<br><small>Fremont, CA &middot; Golden Gate Area Council</small></span>
+    <a class="brand-group" href="index.html" aria-label="Pack 269 home">
+      <span class="brand-mark"><svg width="72" height="72" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M50 6 L94 50 L50 94 L6 50 Z" fill="#003F87"/>
+          <path d="M50 16 L84 50 L50 84 L16 50 Z" fill="#FDC116"/>
+          <g fill="#ffffff">
+            <ellipse cx="50" cy="58" rx="13" ry="11"/>
+            <ellipse cx="34" cy="44" rx="6.5" ry="8"/>
+            <ellipse cx="46" cy="36" rx="6" ry="7.5"/>
+            <ellipse cx="58" cy="36" rx="6" ry="7.5"/>
+            <ellipse cx="68" cy="46" rx="6" ry="7.5"/>
+          </g>
+        </svg></span>
+      <div class="brand-badge" aria-hidden="true">
+          <div class="num">269</div>
+          <div class="word">Cub Scouts</div>
+          <div class="place">Fremont, CA</div>
+        </div>
     </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="site-nav" id="siteNav">
+    <nav class="site-nav" aria-label="Primary">
       <ul>
         <li><a href="index.html" data-page="home">Home</a></li>
         <li><a href="events.html" data-page="events">Calendar &amp; Events</a></li>
@@ -42,14 +55,42 @@
         </li>
         <li><a href="news.html" data-page="news">Pack News</a></li>
         <li><a href="contact.html" data-page="contact">Contact</a></li>
+        <li><a href="enroll.html" data-page="enroll" class="nav-cta">Join</a></li>
       </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a data-page="home" href="index.html">Home</a>
+      <a data-page="events" href="events.html">Calendar &amp; Events</a>
+      <a data-page="enroll" href="enroll.html">Join Pack 269</a>
+      <a class="sub" href="enroll.html#new-scouts">New Scouts</a>
+      <a class="sub" href="enroll.html#returning-scouts">Returning Scouts</a>
+      <a class="sub" href="forms.html">Application Forms</a>
+      <a data-page="about" href="about.html">About Us</a>
+      <a class="sub" href="about.html#our-values">Our Values</a>
+      <a class="sub" href="about.html#yearly-activities">Yearly Activities</a>
+      <a class="sub" href="faq.html">FAQ</a>
+      <a data-page="news" href="news.html">Pack News</a>
+      <a data-page="contact" href="contact.html">Contact</a>
+      <a class="nav-cta" href="enroll.html">Join Pack 269</a>
     </nav>
   </div>
 </header>
 
 <main>
 
-<section class="page-hero"><div class="container"><h1>Join Pack 269</h1><p>How to enroll a new scout or renew for a returning scout</p></div></section>
+<section class="page-title-wrap">
+  <div class="container">
+    <h1>Join Pack 269</h1>
+    <p>How to enroll a new scout or renew for a returning scout</p>
+  </div>
+</section>
 <section class="section" id="new-scouts">
   <div class="container narrow">
     <h2>New Scouts</h2>
@@ -83,33 +124,27 @@
 
 <footer class="site-footer">
   <div class="footer-inner">
+    <div class="footer-motto">Do Your Best&trade;</div>
     <div class="footer-col">
-      <h4>Cub Scout Pack 269</h4>
-      <p>Fremont, CA &mdash; Golden Gate Area Council<br>Mission Peak District</p>
-      <p>Chartered by American Legion Post 837</p>
-    </div>
-    <div class="footer-col">
-      <h4>Meetings</h4>
-      <p>Veterans Memorial Hall<br>Niles, Fremont, CA</p>
-      <p>Den &amp; Pack meetings, 3x per month, Wednesdays 7&ndash;8pm</p>
-    </div>
-    <div class="footer-col">
-      <h4>Contact</h4>
+      <h4>Contacts</h4>
       <p><a href="mailto:pack269info@gmail.com">pack269info@gmail.com</a></p>
-      <p>Pack calendar, roster &amp; leader info: Scoutbook (for enrolled families)</p>
+      <p>Veterans Memorial Hall, Niles &middot; Fremont, CA</p>
+      <p>Golden Gate Area Council &middot; Mission Peak District</p>
     </div>
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h4>Links</h4>
       <ul class="footer-links">
+        <li><a href="enroll.html">Join Pack 269</a></li>
         <li><a href="events.html">Calendar &amp; Events</a></li>
-        <li><a href="enroll.html">Join / Renew</a></li>
         <li><a href="forms.html">Forms</a></li>
         <li><a href="faq.html">FAQ</a></li>
+        <li><a href="https://www.scouting.org/" target="_blank" rel="noopener">Scouting.org</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>&copy; <span id="year"></span> Cub Scout Pack 269 &middot; Boy Scouts of America. Do Your Best!</p>
+    <p>&copy; <span id="year"></span> Cub Scout Pack 269</p>
+    <p>Some phrases and logos used on this site are trademarks of Scouting America</p>
   </div>
 </footer>
 

@@ -10,6 +10,8 @@ No build step, no server, nothing to compile. GitHub Pages serves the files as-i
 - assets/js/data.js - data-access layer every page calls through (Pack269Data.get(collection))
 - assets/js/main.js - renders each page's content
 - assets/data/*.json - the actual content: dens, news, activities, events, faq
+- assets/img/logo.svg - Pack 269 logo (SVG wrapper around the pack's official artwork), used in the nav
+- assets/img/favicon.svg - browser tab icon, cropped from the same logo
 
 ## Updating content today (v1, static)
 Edit the relevant file in assets/data/ and commit. No HTML/CSS/JS changes needed.
@@ -23,6 +25,16 @@ Edit the relevant file in assets/data/ and commit. No HTML/CSS/JS changes needed
 6. Build an admin UI (Supabase Studio, or a small authenticated app) for editing rows.
 
 Never put a service_role key in this repo or client-side code - anon/publishable key only, with RLS restricting it to read-only.
+
+## Open TODO: live calendar embed
+events.html currently only shows a static district-events table and points enrolled families to
+Scoutbook for the real calendar (Scoutbook calendars aren't publicly embeddable outside the platform).
+If Pack 269 wants a directly embedded calendar like some other packs use, we need one of:
+- A public Google Calendar embed URL / calendar ID (format: xxxxx@group.calendar.google.com), which
+  can then be dropped into an iframe in events.html, OR
+- Confirmation that Scoutbook is genuinely the only calendar source, in which case this TODO is closed
+  as "won't do" since there's nothing public to embed.
+Do not guess or fabricate a calendar ID here - a wrong one silently shows someone else's calendar or a blank iframe.
 
 ## Content source
 Copy is sourced from the live Pack 269 site (pack269.org) as of September 2026. Application form links

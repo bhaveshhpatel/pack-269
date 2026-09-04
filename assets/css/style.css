@@ -11,7 +11,7 @@ a:hover { color:var(--gold); }
 .site-header { background:var(--navy); position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(0,0,0,.15); }
 .header-inner { max-width:1200px; margin:0 auto; padding:12px 20px; display:flex; align-items:center; justify-content:space-between; }
 .brand { display:flex; align-items:center; gap:10px; color:#fff; }
-.brand-mark { background:var(--gold); color:var(--navy-dark); font-weight:900; padding:6px 10px; border-radius:6px; font-size:14px; }
+.brand-logo { width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0; }
 .brand-text { font-weight:700; font-size:15px; }
 .brand-text small { font-weight:400; color:#c9d2e3; font-size:11px; }
 .brand:hover { color:#fff; }

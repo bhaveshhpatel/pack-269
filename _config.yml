@@ -1,0 +1,20 @@
+title: Pack 269
+email: pack269info@gmail.com
+cubmaster_email: pack269info@gmail.com
+description: >-
+  Cub Scout Pack 269 of Fremont, California. We provide fun, character-building adventures
+  for K-5th grade youth through outdoor activities, STEM projects, and community service.
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-tailwindcss
+
+exclude:
+  - README.md
+  - LICENSE
+  - vendor/
+  - node_modules/

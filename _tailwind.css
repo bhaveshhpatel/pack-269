@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               Arial, "Noto Sans", "Liberation Sans", "Helvetica Neue",
+               sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+               "Segoe UI Symbol", "Noto Color Emoji";
+
+  --font-slab: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-cub-gold: #FDC116;
+  --color-scout-blue: #003F87;
+  --color-cub-blue: var(--color-scout-blue);
+}
+
+@layer base {
+  body { @apply font-sans; }
+  h1,h2,h3 { @apply font-slab; }
+}
+
+@layer components {
+  .prose h1 {
+    @apply text-4xl font-extrabold text-cub-gold mt-8 tracking-[0.2em] uppercase;
+  }
+  .prose h2 {
+    @apply text-3xl font-bold text-cub-blue mt-6 mb-4;
+  }
+  .prose h3 {
+    @apply text-2xl font-semibold text-cub-gold mt-6 mb-2;
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "\ud83c\udfd5\ufe0f",
+    "title": "Outdoor Skills",
+    "description": "Hikes, campouts, nature study, and leave-no-trace basics."
+  },
+  {
+    "icon": "\ud83d\ude97",
+    "title": "STEM & Creativity",
+    "description": "From Pinewood Derby cars to museum visits, Scouts design, build, and discover new skills."
+  },
+  {
+    "icon": "\ud83e\udd1d",
+    "title": "Community Service",
+    "description": "Scouting for Food, school beautification days, and pack service projects that make a difference."
+  },
+  {
+    "icon": "\ud83c\udf89",
+    "title": "Fun & Friendship",
+    "description": "Holiday parties, museum sleepovers, and celebrations that build our pack community."
+  }
+]

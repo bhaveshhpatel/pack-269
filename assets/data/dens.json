@@ -1,26 +1,32 @@
 [
   {
     "name": "Lion Den",
-    "grade": "Kindergarten"
+    "grade": "Kindergarten",
+    "meetingDay": "Wednesdays"
   },
   {
     "name": "Tiger Den",
-    "grade": "1st Grade"
+    "grade": "1st Grade",
+    "meetingDay": "Wednesdays"
   },
   {
     "name": "Wolf Den",
-    "grade": "2nd Grade"
+    "grade": "2nd Grade",
+    "meetingDay": "Wednesdays"
   },
   {
     "name": "Bear Den",
-    "grade": "3rd Grade"
+    "grade": "3rd Grade",
+    "meetingDay": "Wednesdays"
   },
   {
     "name": "Webelos 1 Den",
-    "grade": "4th Grade"
+    "grade": "4th Grade",
+    "meetingDay": "Wednesdays"
   },
   {
     "name": "Arrow of Light (AOL) Den",
-    "grade": "5th Grade"
+    "grade": "5th Grade",
+    "meetingDay": "Wednesdays"
   }
 ]

@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "Adventure Begins Here",
+    "subtitle": "Join Pack 269 \u2014 where every child explores, belongs, and leads.",
+    "primaryButtonText": "Join Now",
+    "primaryButtonLink": "enroll.html",
+    "secondaryButtonText": "Upcoming Events",
+    "secondaryButtonLink": "events.html"
+  },
+  "glance": {
+    "title": "2026 \u2014 27, at a Glance",
+    "blurb": "A quick look at what a year in Pack 269 looks like \u2014 meetings, campouts, the Pinewood Derby, and more.",
+    "overviewUrl": "",
+    "overviewButtonText": "See the Full Year",
+    "overviewButtonLink": "about.html#yearly-activities"
+  },
+  "why": {
+    "intro": "Scouting America welcomes every family to discover outdoor adventure, community, and character. In Pack 269, kids build confidence and leadership through hands-on experiences \u2014 and have a blast doing it.",
+    "bullets": [
+      "\ud83c\udf32 Outdoor skills, hikes, and campouts",
+      "\ud83e\uddea STEM, crafts, and curiosity-driven learning",
+      "\ud83e\udd1d Friendship, teamwork, and service",
+      "\u2728 Inclusive \u2014 every youth and family is welcome"
+    ],
+    "linkText": "Learn About Pack 269",
+    "linkHref": "about.html"
+  },
+  "cta": {
+    "title": "Ready to Explore?",
+    "text": "New to Scouting? We'll help you get started. Everyone's welcome.",
+    "buttonText": "Join Pack 269",
+    "buttonLink": "enroll.html"
+  }
+}

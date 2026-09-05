@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | Cub Scout Pack 269</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand-group" href="index.html" aria-label="Pack 269 home">
+      <span class="brand-mark"><svg width="72" height="72" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M50 6 L94 50 L50 94 L6 50 Z" fill="#003F87"/>
+          <path d="M50 16 L84 50 L50 84 L16 50 Z" fill="#FDC116"/>
+          <g fill="#ffffff">
+            <ellipse cx="50" cy="58" rx="13" ry="11"/>
+            <ellipse cx="34" cy="44" rx="6.5" ry="8"/>
+            <ellipse cx="46" cy="36" rx="6" ry="7.5"/>
+            <ellipse cx="58" cy="36" rx="6" ry="7.5"/>
+            <ellipse cx="68" cy="46" rx="6" ry="7.5"/>
+          </g>
+        </svg></span>
+      <div class="brand-badge" aria-hidden="true">
+          <div class="num">269</div>
+          <div class="word">Cub Scouts</div>
+          <div class="place">Fremont, CA</div>
+        </div>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul><li><a href="index.html">&larr; Back to site</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="admin-wrap">
+  <h1>Pack 269 Admin</h1>
+  <p class="sub">Edit the site's content directly. Changes save straight to the <code>main</code> branch on GitHub and go live on next page load.</p>
+
+  <div class="admin-card">
+    <h2>1. Connect with a GitHub token</h2>
+    <p class="admin-note" style="margin-top:0">
+      Create a <strong>fine-grained personal access token</strong> at
+      <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>,
+      scoped to only the <strong>pack-269</strong> repository, with <strong>Contents: Read and write</strong> permission.
+      The token is stored only in this browser tab's session storage &mdash; it is never sent anywhere except directly to GitHub's API.
+    </p>
+    <div class="admin-row">
+      <label for="adminToken">Token</label>
+      <input class="admin-input" id="adminToken" type="password" placeholder="github_pat_...">
+      <button class="admin-btn admin-btn-primary" id="connectBtn" type="button">Connect</button>
+      <button class="admin-btn admin-btn-ghost" id="forgetTokenBtn" type="button">Forget Token</button>
+    </div>
+    <div class="admin-status" id="authStatus"></div>
+  </div>
+
+  <div class="admin-card" id="editorSection" style="display:none">
+    <h2>2. Choose what to edit</h2>
+    <div class="admin-row">
+      <label for="fileSelect">Content</label>
+      <select class="admin-select" id="fileSelect"></select>
+      <button class="admin-btn admin-btn-primary" id="loadBtn" type="button">Load</button>
+    </div>
+    <div class="admin-status" id="editorStatus"></div>
+    <h2 id="editorTitle" style="margin-top:24px"></h2>
+    <div id="editorContainer"></div>
+    <div class="admin-row" style="margin-top:10px">
+      <button class="admin-btn admin-btn-primary" id="saveBtn" type="button" style="display:none">Save Changes</button>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-bottom" style="border-top:none">
+    <p>Pack 269 Admin &middot; <a href="index.html" style="color:var(--cub-gold)">Back to site</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/admin.js"></script>
+</body>
+</html>
